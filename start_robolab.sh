@@ -8,4 +8,4 @@ docker run -i -t \
 --cap-add=SYS_PTRACE \
 --security-opt seccomp=unconfined \
 --workdir=/root/robolab \
--v /data/Docker_share/robolab:/root/robolab evolmonkey:robolab /bin/bash
+-v /data/Docker_share/robolab:/root/robolab evolmonkey/robolab:v1.0 /bin/bash
